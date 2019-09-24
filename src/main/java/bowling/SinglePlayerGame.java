@@ -8,6 +8,7 @@ package bowling;
 public class SinglePlayerGame {
     
     public Tour TourActuel;
+    
 
 	/**
 	 * Constructeur

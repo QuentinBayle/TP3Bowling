@@ -17,11 +17,12 @@ public class Tour {
     public int BouleLancee;
     public Tour TourSuivant;
     
-    public Tour(int t){
+    public Tour(int t, Tour suivant){
         if(t<1 || t>9){
             System.out.print("Impossible");
         }
         NumeroTour = t;
+        suivant = TourSuivant;
     }
     public Tour AllerAuTourSuivant(){
         return TourSuivant;
@@ -71,7 +72,6 @@ public class Tour {
     
     public void Lancer(int NumeroLancee) {
                 BouleLancee=0;
-                
                 if (BouleLancee > 1) {
 			throw new UnsupportedOperationException();
 		}
