@@ -6,6 +6,8 @@ package bowling;
  * final de ce joueur
  */
 public class SinglePlayerGame {
+    
+    public Tour TourActuel;
 
 	/**
 	 * Constructeur
@@ -20,6 +22,9 @@ public class SinglePlayerGame {
 	 * ce lancé
 	 */
 	public void lancer(int nombreDeQuillesAbattues) {
+             if(nombreDeQuillesAbattues == 10){
+                 
+             }
 
 	}
 
